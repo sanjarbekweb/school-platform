@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Payload & Database
+school.db
+school.db.*
+school.db-journal
+school.db-shm
+school.db-wal
+backups/
+payload-types.ts
+
+# TypeScript build metadata
+*.tsbuildinfo
+
+# Media uploads (local storage)
+public/media/
+media/
+
+# Environment
+.env
+.env*.local
+
+# Logs & temp
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db

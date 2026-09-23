@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e335b" />
+      <stop offset="100%" stop-color="#0b1528" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" rx="16" fill="url(#bgGrad)" />
+  
+  <!-- Subtle academic geometric background pattern -->
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#2563eb" stroke-width="1.5" opacity="0.2" stroke-dasharray="6 6" />
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#60a5fa" stroke-width="1" opacity="0.1" />
+
+  <!-- Person Silhouette & Academic Attire -->
+  <!-- Shoulders / Suit -->
+  <path d="M 90 500 L 90 410 C 90 340, 140 330, 200 330 C 260 330, 310 340, 310 410 L 310 500 Z" fill="#0f172a" stroke="#334155" stroke-width="2" />
+  <!-- Shirt & Tie -->
+  <polygon points="175,330 225,330 200,390" fill="#ffffff" />
+  <polygon points="196,355 204,355 208,440 200,455 192,440" fill="#1d4ed8" />
+
+  <!-- Neck -->
+  <rect x="180" y="270" width="40" height="65" rx="4" fill="url(#skinGrad)" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="220" rx="60" ry="75" fill="url(#skinGrad)" />
+
+  <!-- Hair / Professional Styling -->
+  <path d="M 140 210 Q 140 145 200 145 Q 260 145 260 210 Q 250 170 200 165 Q 150 170 140 210 Z" fill="#334155" />
+
+  <!-- Academic Badge / Lapel Pin -->
+  <circle cx="150" cy="380" r="10" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <polygon points="150,373 152,378 157,378 153,382 155,387 150,384 145,387 147,382 143,378 148,378" fill="#ffffff" />
+
+  <!-- Academic Text Ribbon -->
+  <rect x="60" y="440" width="280" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(255, 255, 255, 0.15)" />
+  <text x="200" y="462" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#93c5fd" letter-spacing="1.5">142-MAKTAB PEDAGOGI</text>
+</svg>

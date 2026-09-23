@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="robotBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05192d" />
+      <stop offset="100%" stop-color="#0a3a60" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#robotBg)" />
+
+  <!-- Circuit lines -->
+  <g stroke="#38bdf8" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M 50 150 L 200 150 L 250 200 L 350 200" />
+    <circle cx="50" cy="150" r="4" fill="#38bdf8" />
+    <circle cx="350" cy="200" r="4" fill="#38bdf8" />
+
+    <path d="M 750 350 L 600 350 L 550 300 L 450 300" />
+    <circle cx="750" cy="350" r="4" fill="#38bdf8" />
+    <circle cx="450" cy="300" r="4" fill="#38bdf8" />
+
+    <path d="M 150 420 L 300 420 L 360 360" />
+    <circle cx="150" cy="420" r="4" fill="#38bdf8" />
+
+    <path d="M 650 80 L 500 80 L 440 140" />
+    <circle cx="650" cy="80" r="4" fill="#38bdf8" />
+  </g>
+
+  <!-- Robot / Tech Core -->
+  <g transform="translate(400, 230)">
+    <!-- Gear / Cog Outer Ring -->
+    <circle cx="0" cy="0" r="100" fill="#0f2b46" stroke="#38bdf8" stroke-width="4" />
+    <!-- Gear teeth -->
+    <rect x="-14" y="-120" width="28" height="240" rx="4" fill="#38bdf8" opacity="0.7" />
+    <rect x="-120" y="-14" width="240" height="28" rx="4" fill="#38bdf8" opacity="0.7" />
+    <rect x="-14" y="-120" width="28" height="240" rx="4" fill="#38bdf8" opacity="0.7" transform="rotate(45)" />
+    <rect x="-14" y="-120" width="28" height="240" rx="4" fill="#38bdf8" opacity="0.7" transform="rotate(-45)" />
+
+    <!-- Core Inner -->
+    <circle cx="0" cy="0" r="75" fill="#0b1528" stroke="#0ea5e9" stroke-width="3" />
+
+    <!-- Robot Face / Monitor -->
+    <rect x="-45" y="-35" width="90" height="70" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="3" />
+    <!-- Glowing Eyes -->
+    <circle cx="-20" cy="0" r="8" fill="#38bdf8" />
+    <circle cx="20" cy="0" r="8" fill="#38bdf8" />
+    <!-- Antenna -->
+    <line x1="0" y1="-35" x2="0" y2="-55" stroke="#38bdf8" stroke-width="3" />
+    <circle cx="0" cy="-58" r="5" fill="#f59e0b" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="270" y="410" width="260" height="38" rx="19" fill="#0284c7" />
+  <text x="400" y="434" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="1">ROBOTOTEXNIKA VA IT</text>
+</svg>

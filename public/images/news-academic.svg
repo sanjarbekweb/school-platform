@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="acadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1528" />
+      <stop offset="100%" stop-color="#1e335b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#acadBg)" />
+  
+  <!-- Subtle Grid -->
+  <g stroke="#334155" stroke-width="1" opacity="0.3">
+    <line x1="100" y1="0" x2="100" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="500" y1="0" x2="500" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="700" y1="0" x2="700" y2="500" />
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+  </g>
+
+  <!-- Open Book Centerpiece -->
+  <g transform="translate(400, 240)">
+    <!-- Book Pages Base -->
+    <path d="M 0 40 Q -120 10 -220 30 L -220 -80 Q -120 -100 0 -70 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="3" />
+    <path d="M 0 40 Q 120 10 220 30 L 220 -80 Q 120 -100 0 -70 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="3" />
+    <!-- Book Spine Glow -->
+    <path d="M 0 -70 L 0 40" stroke="#1d4ed8" stroke-width="4" />
+    
+    <!-- Text lines on left page -->
+    <line x1="-190" y1="-50" x2="-30" y2="-50" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+    <line x1="-190" y1="-25" x2="-30" y2="-25" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+    <line x1="-190" y1="0" x2="-60" y2="0" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Text lines on right page -->
+    <line x1="30" y1="-50" x2="190" y2="-50" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+    <line x1="30" y1="-25" x2="190" y2="-25" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+    <line x1="30" y1="0" x2="160" y2="0" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Graduation Cap Floating Above -->
+    <polygon points="0,-140 -90,-110 0,-80 90,-110" fill="#1e40af" stroke="#60a5fa" stroke-width="2" />
+    <path d="M -50 -100 L -50 -75 Q 0 -60 50 -75 L 50 -100" fill="#1d4ed8" />
+    <!-- Tassel -->
+    <circle cx="0" cy="-140" r="4" fill="#fbbf24" />
+    <path d="M 0 -140 Q 50 -125 70 -90" fill="none" stroke="#fbbf24" stroke-width="2.5" />
+    <polygon points="68,-90 72,-90 74,-75 66,-75" fill="#fbbf24" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="290" y="410" width="220" height="38" rx="19" fill="#1d4ed8" />
+  <text x="400" y="434" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="1">AKADEMIK JARAYON</text>
+</svg>

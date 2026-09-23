@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="magBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1528" />
+      <stop offset="40%" stop-color="#1e335b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="12" fill="url(#magBg)" />
+  
+  <!-- Outer Gold Border -->
+  <rect x="25" y="25" width="550" height="750" rx="8" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.6" />
+  <rect x="35" y="35" width="530" height="730" rx="6" fill="none" stroke="#334155" stroke-width="1" />
+
+  <!-- Magazine Masthead -->
+  <rect x="40" y="55" width="520" height="110" fill="#070d19" rx="4" />
+  <text x="300" y="90" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#93c5fd" letter-spacing="4">TOSHKENT SHAHRI 142-MAKTAB</text>
+  <text x="300" y="138" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="2">MAKTAB ZIYO</text>
+  <text x="300" y="156" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" font-weight="600" fill="#f59e0b" letter-spacing="3">ILMIY-METODIK VA IJTIMOIY JURNAL</text>
+
+  <!-- Issue Badge -->
+  <rect x="235" y="180" width="130" height="28" rx="14" fill="url(#goldGrad)" />
+  <text x="300" y="198" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="800" fill="#ffffff" letter-spacing="1">1-SON • 2026-YIL</text>
+
+  <!-- Center Artwork: Academic Emblem / Seal -->
+  <g transform="translate(300, 370)">
+    <circle cx="0" cy="0" r="120" fill="#13223f" stroke="#3b82f6" stroke-width="3" />
+    <circle cx="0" cy="0" r="105" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6 4" />
+    
+    <!-- Open Book -->
+    <path d="M 0 30 Q -60 10 -100 25 L -100 -40 Q -60 -55 0 -35 Z" fill="#ffffff" />
+    <path d="M 0 30 Q 60 10 100 25 L 100 -40 Q 60 -55 0 -35 Z" fill="#ffffff" />
+    <line x1="0" y1="-35" x2="0" y2="30" stroke="#1d4ed8" stroke-width="3" />
+
+    <!-- Sun Burst behind book -->
+    <polygon points="0,-75 10,-55 35,-60 20,-40 38,-25 15,-15" fill="#f59e0b" opacity="0.8" />
+    <polygon points="0,-75 -10,-55 -35,-60 -20,-40 -38,-25 -15,-15" fill="#f59e0b" opacity="0.8" />
+  </g>
+
+  <!-- Article Headlines on Cover -->
+  <g transform="translate(60, 540)">
+    <!-- Article 1 -->
+    <rect x="0" y="0" width="480" height="60" rx="6" fill="rgba(15, 23, 42, 0.6)" stroke="#334155" stroke-width="1" />
+    <text x="20" y="25" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#f59e0b">BOSH MAQOLA</text>
+    <text x="20" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#ffffff">Zamonaviy ta’limda interfaol metodlar va sun’iy intellekt</text>
+
+    <!-- Article 2 -->
+    <rect x="0" y="75" width="480" height="60" rx="6" fill="rgba(15, 23, 42, 0.6)" stroke="#334155" stroke-width="1" />
+    <text x="20" y="100" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#60a5fa">ILMIY TADQIQOT</text>
+    <text x="20" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#ffffff">Xalqaro fan olimpiadalariga tayyorgarlik tizimi</text>
+  </g>
+
+  <!-- Barcode & Issue Info Footer -->
+  <g transform="translate(60, 710)">
+    <line x1="0" y1="0" x2="480" y2="0" stroke="#334155" stroke-width="1" />
+    <text x="0" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">ISSN 2181-4214 • O‘zbekiston Respublikasi</text>
+    <text x="480" y="25" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Nashr sanasi: Fevral, 2026</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="awardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1528" />
+      <stop offset="100%" stop-color="#1e335b" />
+    </linearGradient>
+    <linearGradient id="trophyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#awardBg)" />
+
+  <!-- Radiance circles -->
+  <circle cx="300" cy="200" r="160" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.15" stroke-dasharray="8 8" />
+  <circle cx="300" cy="200" r="120" fill="#f59e0b" opacity="0.05" />
+
+  <!-- Laurel Wreath -->
+  <g stroke="#f59e0b" stroke-width="3" fill="none" opacity="0.6">
+    <path d="M 200 240 C 180 180 200 110 270 90" />
+    <path d="M 400 240 C 420 180 400 110 330 90" />
+  </g>
+
+  <!-- Big Gold Trophy Cup -->
+  <g transform="translate(300, 200)">
+    <!-- Cup Body -->
+    <path d="M -70 -70 L 70 -70 L 60 20 C 55 60 30 80 0 80 C -30 80 -55 60 -60 20 Z" fill="url(#trophyGold)" stroke="#d97706" stroke-width="3" />
+    <!-- Handles -->
+    <path d="M -70 -50 C -115 -50 -115 10 -60 20" fill="none" stroke="url(#trophyGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M 70 -50 C 115 -50 115 10 60 20" fill="none" stroke="url(#trophyGold)" stroke-width="8" stroke-linecap="round" />
+    <!-- Stem & Pedestal -->
+    <rect x="-12" y="80" width="24" height="35" fill="url(#trophyGold)" />
+    <polygon points="-40,115 40,115 50,145 -50,145" fill="#0f172a" stroke="#d97706" stroke-width="2" />
+    <!-- Medal Star on Cup -->
+    <polygon points="0,-35 8,-15 28,-15 12,0 18,20 0,8 -18,20 -12,0 -28,-15 -8,-15" fill="#ffffff" />
+    <circle cx="0" cy="-6" r="4" fill="#d97706" />
+  </g>
+
+  <!-- Plaque / Title Ribbon -->
+  <rect x="180" y="380" width="240" height="36" rx="18" fill="#f59e0b" />
+  <text x="300" y="403" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="13" font-weight="800" fill="#0b1528" letter-spacing="1">XALQARO VA RESPUBLIKA SOVRINLARI</text>
+</svg>

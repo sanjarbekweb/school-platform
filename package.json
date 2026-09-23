@@ -1,0 +1,44 @@
+{
+  "name": "school-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=\"--no-deprecation\" next dev",
+    "build": "cross-env NODE_OPTIONS=\"--no-deprecation\" next build",
+    "start": "cross-env NODE_OPTIONS=\"--no-deprecation\" next start",
+    "lint": "next lint",
+    "generate:types": "payload generate:types",
+    "verify": "tsx scripts/verify-system.ts",
+    "seed:demo": "tsx scripts/seed-demo.ts",
+    "backup": "node scripts/backup.mjs",
+    "restore": "node scripts/restore.mjs",
+    "migrate:wp": "tsx scripts/migrate-from-wordpress.ts --live",
+    "migrate:wp:dry": "tsx scripts/migrate-from-wordpress.ts --dry-run"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "3.89.0",
+    "@payloadcms/db-sqlite": "3.89.0",
+    "@payloadcms/next": "3.89.0",
+    "@payloadcms/richtext-lexical": "3.89.0",
+    "cross-env": "^7.0.3",
+    "framer-motion": "^13.3.0",
+    "graphql": "^16.8.1",
+    "lenis": "^1.3.26",
+    "lucide-react": "^0.475.0",
+    "next": "15.2.9",
+    "payload": "3.89.0",
+    "react": "19.0.1",
+    "react-dom": "19.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.2.9",
+    "playwright": "^1.63.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.7.3"
+  }
+}
